@@ -1,0 +1,14 @@
+﻿{
+  "Name": "İlçe",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "_9TgyGqBn0CJ1pzMqAhTVQ",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/_9TgyGqBn0CJ1pzMqAhTVQ",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/2caz4TrnqEqSrNJwuvqs4Q",
+  "Created": "2024-12-23T00:11:40.2368027Z",
+  "Updated": "2024-12-23T00:11:40.2368027Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

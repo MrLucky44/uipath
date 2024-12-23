@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JjUY2KnFtE6iEWo9C4P4lg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="5218fc93-a8d9-4768-8c5e-7dde9c15cd7e" CvTextArea="36, 401, 272, 23" CvTextArgument="Facebook - log in or sign up" CvType="Text" DesignTimeRectangle="36, 394, 272, 31" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='Facebook - log in or sign up' check:innerText='Facebook - log in or sign up' /&gt;" Guid="ebafffb0-27f2-4efa-b701-fc7d30b00592" ScopeSelectorArgument="&lt;html app='chrome.exe' title='facebook - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5218fc93-a8d9-4768-8c5e-7dde9c15cd7e" CvElementArea="35, 357, 31, 31" CvTextArea="42, 364, 15, 19" CvType="Icon" DesignTimeRectangle="41, 364, 18, 18" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl parentid='rso' tag='IMG' type='' class='XNo5Ab' aaname='Facebook - log in or sign upFacebookhttps://www.facebook.com' /&gt;" Guid="7dca705d-9c60-4ba3-a3b4-30a05c1874d7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIRSURBVEhLnZXdSxRRGMbnsjBREOoyKPzo0ogu+kuiqySIrNAbqRUv+qJ/IYL0ShAChfJC6DIw8ZMFFWmphZ3ZL0mdLfZjpl3mPPGcYZydOWfctRceGM6858d73o9zDADwPA9mvoRC6RB/qrX/Ur54CCtfkiyawY+cVcTRSUVxPq/IMK0iPE/AYKQ66FGlhpW0gwdzLdyY9nBpHOh5BAynBMZmW1jacKSPsu/Elqc3dMc/sOq49crDhYc4U/TJluvKfqbFiC9u/Gjg8oRQIEkaeCqwlmko8AiYkSZBr04BM0vAchpY2QVmvwLXnvn/+p8AO9ko/BTMfCUd/85boGDLYkfs9uvQZ/SFh1+2Bvxpy1GAgTLlECYEUHWBSh24+TLqt7jpqGBWPw4M9LsRgr/sAxc1PtS99y0VPDKtTwPlNkNw32P1f6DBlFDB7NO4Y6C/LR9addR/7WKfK2AutjtdmQyj1JnTBHpjwWjBQ6lom3UCp3NqxNefa1Jx/0O0eASbx77aLVh781kF332nKd7yTnK7dZvj+VVXBZ81IN2AEweE2jPrcvbjmzqB2YKbPxNGOhAvFM5+t2BCv33XXEK84uKL29mGPFonMH3ikVLy2uRzorvoma+FNVeOqdsUElxz/ZZi9T+uO5Gcnu47tmEVyv7TZFqE24rTeUUonzkhBAxGwjeKkevS0q3kY1ooSyjtHz+jOzW7/0XNAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="5218fc93-a8d9-4768-8c5e-7dde9c15cd7e" CvTextArea="75, 357, 64, 13" CvTextArgument="Facebook" CvType="Text" DesignTimeRectangle="76, 355, 139, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='VuuXrf' parentid='rso' tag='SPAN' type='' aaname='Facebook' check:innerText='Facebook' /&gt;" Guid="01ad59a6-74c4-4c62-befa-a6b19602f5e7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e469dfd0c2c644bf4b48a4c9852bed40.png" xmlns="">0twKF7bKXrk63EId0ChkC5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

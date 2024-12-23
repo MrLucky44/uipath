@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Tüm Arkadaşlar",
+  "Type": "Element",
+  "Id": "PUgJnuz_WE6gHHq1M4uT6Q",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/PUgJnuz_WE6gHHq1M4uT6Q",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/uTjW4hSqIk2C3Aja95yVIw",
+  "Created": "2024-12-16T06:55:38.4314462Z",
+  "Updated": "2024-12-16T06:55:38.4314462Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

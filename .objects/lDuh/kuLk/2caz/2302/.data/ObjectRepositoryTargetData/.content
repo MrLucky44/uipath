@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="J_9aZSUySE2VdaZuyCxU4Q" Reference="cF8d800nOEKccZfMHYkS1g/2302vqn39UiL-5gwOPpoiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/bilgisayar" CVScreenId="28b53a01-f0c3-483d-8776-2f6b8f79fe03" CvElementArea="149, 379, 45, 35" CvTextArea="160, 390, 22, 11" CvTextArgument="Ara" CvType="Button" DesignTimeRectangle="150, 380, 42, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='searchResultLeft-price' tag='BUTTON' type='' class='btn btn-link js-manual-search-button' aaname='Ara' check:innerText='Ara' /&gt;" Guid="9e4c9e1c-941c-4a22-a53a-7b9acbf0fb69" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="28b53a01-f0c3-483d-8776-2f6b8f79fe03" CvTextArea="23, 303, 33, 17" CvTextArgument="Fiyat" CvType="Text" DesignTimeRectangle="8, 290, 200, 43" FuzzySelectorArgument="&lt;webctrl id='_cllpsID_price' tag='DT' type='' class='collapseTitle' aaname='         Fiyat' check:innerText='Fiyat' /&gt;" Guid="234e0be1-26cf-49fa-82c5-667f197431c9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9c0efd5d0c8d928ad026cd4cb948e6f7.png" xmlns="">0DvFHjJ0w20yTyBkFz62UOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

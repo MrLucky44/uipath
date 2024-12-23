@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8n1kTVvAmEiiFOeqnwM7aQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com" CVScreenId="e0050299-ea67-4208-be79-cef2cdb313ae" CvTextArea="191, 162, 203, 13" CvTextArgument="Kelime, ilan no veya mağaza adı ile ara" CvType="Text" DesignTimeRectangle="184, 150, 264, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='searchText' tag='INPUT' type='text' class='ui-autocomplete-input' placeholder='Kelime, ilan no veya mağaza adı ile ara' aaname='Kelime, ilan no veya mağaza adı ile ara' /&gt;" Guid="57d02ffd-50b0-47ab-939a-6314f3a0b59b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='sahibinden.com - Türkiye&amp;apos;nin Online İlan ve Alışveriş Sitesi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="20a41f5094f8ec0ba19d69875d248f7c.png" xmlns="">0RDeHind7t0CKAFTaKthVQQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

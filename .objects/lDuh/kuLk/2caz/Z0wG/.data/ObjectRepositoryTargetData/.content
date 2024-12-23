@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Vsl03ltEbUWxzYJXjIDgbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/bilgisayar" CVScreenId="171573c0-121e-447d-a8ed-099ce4798818" CvElementArea="226, 247, 24, 24" CvType="CloseButton" DesignTimeRectangle="227, 248, 22, 23" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='collapse-pane' parentid='searchResultLeft-address' tag='A' type='' aaname='' /&gt;" Guid="813f166a-f7eb-49bb-9fc5-62671467e74e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="171573c0-121e-447d-a8ed-099ce4798818" CvTextArea="41, 262, 53, 13" CvTextArgument="istanbul" CvType="Text" DesignTimeRectangle="35, 252, 182, 35" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='searchResultLeft-address' tag='INPUT' type='text' class='js-address-filter' placeholder='İl' aaname='' /&gt;" Guid="fcfadc56-9bf8-4029-8b27-cbb2eb2f14c0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aca29cd271cf61eea9f24ab313415148.png" xmlns="">09Xug-wG7g0GA_TWbg_9-PQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

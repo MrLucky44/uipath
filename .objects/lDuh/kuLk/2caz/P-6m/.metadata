@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sıfır",
+  "Type": "Element",
+  "Id": "P-6mVVIHNkO9YhOqjKPPvA",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/P-6mVVIHNkO9YhOqjKPPvA",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/2caz4TrnqEqSrNJwuvqs4Q",
+  "Created": "2024-12-22T23:47:21.2870646Z",
+  "Updated": "2024-12-22T23:47:21.2870646Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

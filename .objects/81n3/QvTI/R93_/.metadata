@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Bilgisayar Modelleri & Fiyatları sahib",
+  "Type": "Screen",
+  "Id": "R93__MpCmUqG6eLyydMUFQ",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/R93__MpCmUqG6eLyydMUFQ",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/QvTIkCywYEev6cLGfGTqVQ",
+  "Created": "2024-12-23T00:53:37.712114Z",
+  "Updated": "2024-12-23T00:53:37.712114Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

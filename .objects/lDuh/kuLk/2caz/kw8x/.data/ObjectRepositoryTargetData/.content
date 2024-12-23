@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hw6_NTYVL0OL3pztLjq-UQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/bilgisayar" CVScreenId="65295050-9e86-4db3-988d-9b5b38c26141" CvTextArea="41, 260, 10, 15" CvTextArgument="il" CvType="Text" DesignTimeRectangle="35, 252, 182, 35" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='searchResultLeft-address' tag='INPUT' type='text' class='js-address-filter' placeholder='İl' aaname='' /&gt;" Guid="fca3ecbf-5ac4-43ba-86ec-20e2cc6269a5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="65295050-9e86-4db3-988d-9b5b38c26141" CvElementArea="187, 254, 27, 24" CvType="Icon" DesignTimeRectangle="185, 252, 31, 28" ElementType="Icon" Guid="4ac180bc-80f4-40d2-a029-548d870a9cc8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAcCAYAAACZOmSXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL7ZXbasJAEIZ9/7s+UB9APDce0GAVlVptEDUogtEtXyBhM9lNVoqEgh/M1U7mn52dmdTe3peqKqupCnmJV8L/EA+PRzX1fdVptVSjXo+t3WwqfzxWu91OujtRKh5FUSyaCNpsNByqy+UiPy+kUBzhQb+fE7JZt91+KIFCcXnj8WikDoeDut1usYVhqD6n04xP3/PU/X6XoYxYxXljPehysZAuKT/bbcZ3s9lIFyNWcf1GvGcZ89ks9eepXLCKf3S7abAgCORxjvP5nLk9/VKGVbzVaKSBTqeTPM7BO+viJFOGkziNVQYNqIu7dL1VXB+xr9VKHufY7/epP4m7dLxVHMEkGPMbXa/SJQUhPVl/MpEuRqzilE0v/cDzjKWksRDTS85++NPNgXnVg5IMI8hcY4v5PLPrdWMhFVULCsWB5SIDuxrjWtT1peLAX6vX6eSCJ8btv9frXPkx/nysZBNO4sAbkgSl5jeKsdVYQIxZAucyARI34Sz+CFRBF2daTDxFHKiS1+vFxg4w8TRxF17ilfALmZ0MSDhvjbUAAAAASUVORK5CYII=" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="84b821cd5771e49fb2f45514b4699786.png" xmlns="">0IwBub6qGbE6QCF49EixMvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

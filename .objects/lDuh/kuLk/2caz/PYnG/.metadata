@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Beylikdüzü",
+  "Type": "Element",
+  "Id": "PYnGEzoSkkOqQ8Qs32i3Gg",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/PYnGEzoSkkOqQ8Qs32i3Gg",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/2caz4TrnqEqSrNJwuvqs4Q",
+  "Created": "2024-12-23T00:14:48.5315741Z",
+  "Updated": "2024-12-23T00:14:48.5315741Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "İstanbul (Avrupa)",
+  "Type": "Element",
+  "Id": "vV_FQPgNykGltLI0fE0Lpg",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/vV_FQPgNykGltLI0fE0Lpg",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/2caz4TrnqEqSrNJwuvqs4Q",
+  "Created": "2024-12-23T00:05:37.3297923Z",
+  "Updated": "2024-12-23T00:05:37.3297923Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

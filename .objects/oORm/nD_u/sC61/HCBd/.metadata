@@ -1,0 +1,13 @@
+﻿{
+  "Name": "klsmwlkm.txt - Notepad",
+  "Type": "Element",
+  "Id": "HCBd5OpreUa_Bh0ccir5tw",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/HCBd5OpreUa_Bh0ccir5tw",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/sC618e3_jESGDSFURhQydg",
+  "Created": "2024-12-16T08:56:08.5788418Z",
+  "Updated": "2024-12-16T08:56:08.5788418Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

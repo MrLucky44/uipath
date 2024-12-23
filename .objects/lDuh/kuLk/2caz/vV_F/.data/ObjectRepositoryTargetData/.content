@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pf_y-O_QKE6fwSyxEWP4SQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/bilgisayar" CVScreenId="6f52ec28-1072-4660-996f-104f86f88511" CvElementArea="33, 325, 17, 17" CvType="CheckBox" DesignTimeRectangle="35, 327, 18, 15" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='searchResultLeft-address' tag='I' class='' aaname='' /&gt;" Guid="e9dd66bf-6b6d-4492-a142-28c87d8cd00d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6f52ec28-1072-4660-996f-104f86f88511" CvElementArea="33, 325, 17, 17" CvTextArea="54, 324, 107, 17" CvTextArgument="İstanbul (Avrupa)" CvType="CheckBox" DesignTimeRectangle="24, 322, 208, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='İstanbul (Avrupa)' parentid='searchResultLeft-address' tag='A' type='' class='noChild facetedCheckbox' check:innerText='İstanbul (Avrupa)' /&gt;" Guid="8eac0396-3d86-4210-8de0-268f92a280d2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="be7e72b4038c6f0253282e4030542b68.png" xmlns="">0_bMqmzwKgESAg0burd3EXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

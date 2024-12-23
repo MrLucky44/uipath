@@ -1,0 +1,13 @@
+﻿{
+  "Name": "A friends",
+  "Type": "Element",
+  "Id": "RjzTuVi1_k281q6L5md7jA",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/RjzTuVi1_k281q6L5md7jA",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/uTjW4hSqIk2C3Aja95yVIw",
+  "Created": "2024-12-16T06:53:46.8920778Z",
+  "Updated": "2024-12-16T06:53:46.8920778Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

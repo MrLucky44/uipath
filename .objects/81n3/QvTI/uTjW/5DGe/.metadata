@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Facebook - log in or si…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "5DGeYfAPDk6nM2IDcZdWAw",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/5DGeYfAPDk6nM2IDcZdWAw",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/uTjW4hSqIk2C3Aja95yVIw",
+  "Created": "2024-12-16T06:52:42.1059466Z",
+  "Updated": "2024-12-16T06:52:42.1059466Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

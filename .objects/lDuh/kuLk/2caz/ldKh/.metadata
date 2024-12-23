@@ -1,0 +1,14 @@
+﻿{
+  "Name": "İl",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ldKhTKU680-NKCV2BB842g",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/ldKhTKU680-NKCV2BB842g",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/2caz4TrnqEqSrNJwuvqs4Q",
+  "Created": "2024-12-22T23:59:26.4909987Z",
+  "Updated": "2024-12-22T23:59:26.4909987Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

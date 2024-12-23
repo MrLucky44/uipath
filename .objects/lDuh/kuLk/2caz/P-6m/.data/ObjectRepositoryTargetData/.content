@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U2bk6UMDTkaYeuBZ7HEIrQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/bilgisayar" CVScreenId="0a1d1e04-d8e9-49a2-acc1-f0ef3a2d3400" CvElementArea="17, 656, 18, 18" CvType="RadioButton" DesignTimeRectangle="19, 658, 18, 15" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='searchResultLeft-' tabindex='2' tag='I' type='' class='' aaname='' /&gt;" Guid="2914483a-f2eb-4b68-80b5-b21d9e09568d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0a1d1e04-d8e9-49a2-acc1-f0ef3a2d3400" CvTextArea="38, 657, 27, 13" CvTextArgument="Sıfır" CvType="Text" DesignTimeRectangle="39, 657, 25, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                                                  Sıfır' parentid='searchResultLeft-' tag='A' type='' class='js-attribute facetedRadiobox single-selection' check:innerText='Sıfır' /&gt;" Guid="d96e356e-f35b-42c0-a2e6-72646688df0c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4458c231230736c41712b0c54f8ba63b.png" xmlns="">0tysoxWeVG0e540zQuOIoUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

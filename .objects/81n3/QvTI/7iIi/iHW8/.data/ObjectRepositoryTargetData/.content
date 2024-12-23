@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IExK3of-jUW9vu9Jmlz6Bw" Reference="cF8d800nOEKccZfMHYkS1g/iHW8Il0PMkGy8ImJWM7XjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/login" CVScreenId="e996cfe4-d50b-4af9-8695-a750d62bda85" CvTextArea="65, 325, 401, 20" CvType="AnyWordGroup" DesignTimeRectangle="67, 323, 485, 26" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='' /&gt;" Guid="071fc821-4033-462b-bc27-71f552c96498" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e996cfe4-d50b-4af9-8695-a750d62bda85" CvTextArea="66, 180, 88, 38" CvTextArgument="Login" CvType="Text" DesignTimeRectangle="67, 177, 940, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-header' aaname='                                                                                                                                                                                     Login                                                         ' check:innerText='Login' /&gt;" Guid="8bf4772a-5596-48e0-a294-32cc466e260c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a26cfed5bf7e22bb5ee06de0f5823de2.png" xmlns="">01EB9rS5JQke1aQRuc8pYCg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

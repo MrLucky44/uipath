@@ -1,0 +1,13 @@
+﻿{
+  "Name": "İkinci El",
+  "Type": "Element",
+  "Id": "f9GaVz91YUuvDoE_wAZixA",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/f9GaVz91YUuvDoE_wAZixA",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/2caz4TrnqEqSrNJwuvqs4Q",
+  "Created": "2024-12-22T23:45:23.142866Z",
+  "Updated": "2024-12-22T23:45:23.142866Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

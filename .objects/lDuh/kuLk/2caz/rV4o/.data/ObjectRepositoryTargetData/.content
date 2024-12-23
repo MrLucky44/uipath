@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hzYMnXUL9U-Hm5Cf0dAihw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com" CVScreenId="555e8d85-7fe1-4136-96f6-368b01df3e7a" CvElementArea="410, 148, 41, 39" CvType="Button" DesignTimeRectangle="412, 150, 38, 36" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='' aaname='' /&gt;" Guid="8ba7c958-74ad-4f49-b23d-18e1cf73cd41" ScopeSelectorArgument="&lt;html app='chrome.exe' title='sahibinden.com - Türkiye&amp;apos;nin Online İlan ve Alışveriş Sitesi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="555e8d85-7fe1-4136-96f6-368b01df3e7a" CvElementArea="183, 148, 232, 39" CvType="InputBox" DesignTimeRectangle="183, 148, 233, 39" ElementType="InputBox" Guid="24670efd-949e-4696-9bd8-a1024d29ebea" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b084f0caa3e8f470dbf66dd843a5290e.png" xmlns="">0IUWO7Zs4e0q7NHCuF1xdFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

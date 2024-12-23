@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vqVzo6Q-GE-BnE7YuzE83Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/bilgisayar" CVScreenId="0a1d1e04-d8e9-49a2-acc1-f0ef3a2d3400" CvElementArea="17, 633, 19, 19" CvType="RadioButton" DesignTimeRectangle="19, 636, 18, 15" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='searchResultLeft-' tag='I' type='' class='' aaname='' /&gt;" Guid="e647ee94-e9ee-4e1f-9c05-63090eb35d9a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0a1d1e04-d8e9-49a2-acc1-f0ef3a2d3400" CvTextArea="38, 634, 51, 14" CvTextArgument="İkinci El" CvType="Text" DesignTimeRectangle="39, 635, 49, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='searchResultLeft-' tag='A' type='' class='js-attribute facetedRadiobox single-selection' aaname='                                                                  İkinci El' check:innerText='İkinci El' /&gt;" Guid="cd5f070e-90a2-418b-a0bb-30d1003e0df6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="444f83692369007a8faf94aa04501c1e.png" xmlns="">0_QWPxu5nTkO0qSjZo6H7YQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

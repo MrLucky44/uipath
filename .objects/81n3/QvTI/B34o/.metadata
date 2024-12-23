@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome (20+) Tüm Arkadaşlar  Facebook",
+  "Type": "Screen",
+  "Id": "B34o_hWR7UCjjme1QNT8cw",
+  "Reference": "cF8d800nOEKccZfMHYkS1g/B34o_hWR7UCjjme1QNT8cw",
+  "ParentRef": "cF8d800nOEKccZfMHYkS1g/QvTIkCywYEev6cLGfGTqVQ",
+  "Created": "2024-12-16T07:04:12.6213066Z",
+  "Updated": "2024-12-16T07:04:12.6213066Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

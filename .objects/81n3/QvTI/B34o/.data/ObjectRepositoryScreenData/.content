@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="OZm_lT34dU2gelb-d8ymMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="460, 0, 1073, 971" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIKSURBVFhHrVexTsMwEO2Ckm4dGbuxsvEF8AfMZCBJx67MZaxEJMTcfkNZWfiClo2JVHRgKFIm5ofObkq4i2M7yZOeVNWXu+fz2WcPBo4YTTEKY0RhisUwwTqIUYQJQKTf9B+NhQluyJZ/3xrhBONhiqwa0IkkZoIx9+cMmkWQ4EE49iT54L6tIOVhgpw768DcORsnMc57Dl4yJ9883j90nfnpVJP/X6E5E6rKPYNfzoHHF2D7DYG3HXD9JL+hGKOoZpf4Ftz9Mw8pcbuQ3xFFYR5SLwxNdAlOMAlQrC5FmGApDAw8u+NhzGgSMIyR6eiRWnthYCI5NaH4ATafwOu75tVcfl8ySFCoWlDHa42Bias1D6tBRWfZAZIxIq/0Ezc7HlrjYiZtrUyxoOpfi4EGbvc8tAa3cyHFHvg2mToBdA5wOxdSHdASiIEm9imAaBXgs+04XIrSugRtBbhkRS2BrQjbCqBzgPviVEVo24ZtBcxW0pcgbUPbQUQCqPBKmlC1IRo6IeeNOoptdVBlnQiX9a7jsS0HMTI+aGJvAij9x27o0Y57E8BvRq5Z6EPAXyuuQrdl65WsBwG58eHicintKMB8KS1hu5Z3EGC/lpdoykRLAfaZC+jzQRSmrwAqOOOau+CQjeNx7SJAvZZTZP6zbkD5PP8qsARAN8OiFPCxR6GaGr2IY0Q+M/4FBl0pnhAfILoAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='(20+) Tüm Arkadaşlar | Facebook' /&gt;" Title="(20+) Tüm Arkadaşlar | Facebook" Url="https://www.facebook.com/friends/list" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="9fbf31d3b0800b6aaa15c7a272291bf4.jpg" xmlns="">0JM60PUaTqE65opNbjCJOzw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
