@@ -134,7 +134,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1428,7499" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1428,8241" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
     </Sequence.Variables>
@@ -143,20 +143,20 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="572,7476" sap2010:WorkflowViewState.IdRef="Sequence_15">
+    <Sequence sap:VirtualizedContainerService.HintSize="588,8218" sap2010:WorkflowViewState.IdRef="Sequence_15">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome sahibinden.com - Türkiye'nin Online İl" sap:VirtualizedContainerService.HintSize="538,7393" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome sahibinden.com - Türkiye'nin Online İl" sap:VirtualizedContainerService.HintSize="554,8135" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="504,7113" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,7855" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="Search" />
                 <Variable x:TypeArguments="x:String" Name="Condition" />
@@ -172,12 +172,12 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="470,271" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="What are you looking for?" Title="Sahibinden">
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="486,271" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="What are you looking for?" Title="Sahibinden">
                 <ui:InputDialog.Result>
                   <OutArgument x:TypeArguments="x:String">[Search]</OutArgument>
                 </ui:InputDialog.Result>
               </ui:InputDialog>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT searchText(1)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="470,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[Search]" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT searchText(1)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[Search]" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="sahibinden.com" CVScreenId="e0050299-ea67-4208-be79-cef2cdb313ae" ContentHash="8n1kTVvAmEiiFOeqnwM7aQ" CvTextArea="191, 162, 203, 13" CvTextArgument="Kelime, ilan no veya mağaza adı ile ara" CvType="Text" DesignTimeRectangle="184, 150, 264, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='searchText' tag='INPUT' type='text' class='ui-autocomplete-input' placeholder='Kelime, ilan no veya mağaza adı ile ara' aaname='Kelime, ilan no veya mağaza adı ile ara' /&gt;" Guid="57d02ffd-50b0-47ab-939a-6314f3a0b59b" InformativeScreenshot="20a41f5094f8ec0ba19d69875d248f7c.png" Reference="cF8d800nOEKccZfMHYkS1g/cPFLYuvgpk62I7aZAZv_kw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='sahibinden.com - Türkiye&amp;apos;nin Online İlan ve Alışveriş Sitesi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                 </uix:NTypeInto.Target>
@@ -192,7 +192,7 @@
                   </uix:VerifyExecutionTypeIntoOptions>
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="470,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="sahibinden.com" CVScreenId="555e8d85-7fe1-4136-96f6-368b01df3e7a" ContentHash="hzYMnXUL9U-Hm5Cf0dAihw" CvElementArea="410, 148, 41, 39" CvType="Button" DesignTimeRectangle="412, 150, 38, 36" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='' aaname='' /&gt;" Guid="8ba7c958-74ad-4f49-b23d-18e1cf73cd41" InformativeScreenshot="b084f0caa3e8f470dbf66dd843a5290e.png" Reference="cF8d800nOEKccZfMHYkS1g/rV4ou5p_iky3Gtb8KcLjDQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='sahibinden.com - Türkiye&amp;apos;nin Online İlan ve Alışveriş Sitesi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -213,12 +213,12 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="470,324" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Which condition?" OptionsString="Used;Not Used; All" Title="Sahibinden">
+              <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="486,324" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Which condition?" OptionsString="Used;Not Used; All" Title="Sahibinden">
                 <ui:InputDialog.Result>
                   <OutArgument x:TypeArguments="x:String">[Condition]</OutArgument>
                 </ui:InputDialog.Result>
               </ui:InputDialog>
-              <ui:IfElseIfV2 Condition="[Condition =&quot;Used&quot;]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="470,1053" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+              <ui:IfElseIfV2 Condition="[Condition =&quot;Used&quot;]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="486,1053" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
                 <ui:IfElseIfV2.Else>
                   <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,276" sap2010:WorkflowViewState.IdRef="Sequence_7">
                     <sap:WorkflowViewStateService.ViewState>
@@ -316,12 +316,12 @@
                   </Sequence>
                 </ui:IfElseIfV2.Then>
               </ui:IfElseIfV2>
-              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="470,271" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="City?" Title="Sahibinden">
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="486,271" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="City?" Title="Sahibinden">
                 <ui:InputDialog.Result>
                   <OutArgument x:TypeArguments="x:String">[City]</OutArgument>
                 </ui:InputDialog.Result>
               </ui:InputDialog>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'İl'" sap:VirtualizedContainerService.HintSize="470,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'İl'" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="761363ad-3068-4b15-bd26-d9ed11024ed5" ContentHash="_p6hv6d6ZUyEP-m-0pD38w" CvElementArea="22, 238, 173, 34" CvType="InputBox" DesignTimeRectangle="23, 239, 170, 32" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='searchResultLeft-address' tag='A' type='' class='faceted-select' aaname='İl' check:innerText='İl' /&gt;" Guid="87c089ea-1c9c-4344-a551-93527b665916" InformativeScreenshot="aaebb120aae80831551f2d5b6ce5396d.png" Reference="cF8d800nOEKccZfMHYkS1g/ldKhTKU680-NKCV2BB842g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -342,7 +342,7 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="470,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[City]" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[City]" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="65295050-9e86-4db3-988d-9b5b38c26141" ContentHash="hw6_NTYVL0OL3pztLjq-UQ" CvTextArea="41, 260, 10, 15" CvTextArgument="il" CvType="Text" DesignTimeRectangle="35, 252, 182, 35" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='searchResultLeft-address' tag='INPUT' type='text' class='js-address-filter' placeholder='İl' aaname='' /&gt;" Guid="fca3ecbf-5ac4-43ba-86ec-20e2cc6269a5" InformativeScreenshot="84b821cd5771e49fb2f45514b4699786.png" Reference="cF8d800nOEKccZfMHYkS1g/kw8xyGFJAUaP5cAuDVqL5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -363,7 +363,7 @@
                   </uix:VerifyExecutionTypeIntoOptions>
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'İstanbul (Avrupa)'" sap:VirtualizedContainerService.HintSize="470,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'İstanbul (Avrupa)'" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="6f52ec28-1072-4660-996f-104f86f88511" ContentHash="pf_y-O_QKE6fwSyxEWP4SQ" CvElementArea="33, 325, 17, 17" CvType="CheckBox" DesignTimeRectangle="35, 327, 18, 15" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='searchResultLeft-address' tag='I' class='' aaname='' /&gt;" Guid="e9dd66bf-6b6d-4492-a142-28c87d8cd00d" InformativeScreenshot="be7e72b4038c6f0253282e4030542b68.png" Reference="cF8d800nOEKccZfMHYkS1g/vV_FQPgNykGltLI0fE0Lpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -384,7 +384,7 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A #'" sap:VirtualizedContainerService.HintSize="470,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A #'" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="171573c0-121e-447d-a8ed-099ce4798818" ContentHash="Vsl03ltEbUWxzYJXjIDgbQ" CvElementArea="226, 247, 24, 24" CvType="CloseButton" DesignTimeRectangle="227, 248, 22, 23" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='collapse-pane' parentid='searchResultLeft-address' tag='A' type='' aaname='' /&gt;" Guid="813f166a-f7eb-49bb-9fc5-62671467e74e" InformativeScreenshot="aca29cd271cf61eea9f24ab313415148.png" Reference="cF8d800nOEKccZfMHYkS1g/Z0wGGJHq70aIuYEMlUqnsQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -405,101 +405,140 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="470,271" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="District" Title="Sahibinden">
-                <ui:InputDialog.Result>
-                  <OutArgument x:TypeArguments="x:String">[District]</OutArgument>
-                </ui:InputDialog.Result>
-              </ui:InputDialog>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'İlçe'" sap:VirtualizedContainerService.HintSize="470,225" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
-                <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="3c5a2247-b422-45d1-aae3-2710582b53c0" ContentHash="tLoBUzy9pkqO0I-WtKc4Tg" CvElementArea="22, 280, 173, 34" CvType="InputBox" DesignTimeRectangle="23, 281, 170, 32" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='İlçe' class='faceted-select' parentid='searchResultLeft-address' tag='A' type='' check:innerText='İlçe' /&gt;" Guid="d8e3db9a-7e35-4fc7-b7aa-19af8a3e907b" InformativeScreenshot="8faff6de617e649c3bc8cb162aef6e98.png" Reference="cF8d800nOEKccZfMHYkS1g/_9TgyGqBn0CJ1pzMqAhTVQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
-                    <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="3c5a2247-b422-45d1-aae3-2710582b53c0" CvTextArea="22, 210, 171, 18" CvTextArgument="Adres Türkiye" CvType="Text" DesignTimeRectangle="8, 196, 200, 43" FuzzySelectorArgument="&lt;webctrl id='addressSelector' tag='DT' type='' class='collapseTitle notCollapsable' aaname='             Adres' check:innerText='Adres' /&gt;" Guid="a52832fd-48ce-4489-864a-b952a4505481" SearchSteps="FuzzySelector, CV" />
-                      </scg:List>
-                    </uix:TargetAnchorable.Anchors>
-                  </uix:TargetAnchorable>
-                </uix:NClick.Target>
-                <uix:NClick.VerifyOptions>
-                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionOptions.Retry>
-                    <uix:VerifyExecutionOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionOptions.Timeout>
-                  </uix:VerifyExecutionOptions>
-                </uix:NClick.VerifyOptions>
-              </uix:NClick>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="470,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[District]" Version="V4">
-                <uix:NTypeInto.Target>
-                  <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="57462029-83b7-4f4d-8f70-39a63100fcfc" ContentHash="ACXl4uTYNkmVDEHQROle2A" CvTextArea="41, 261, 24, 17" CvTextArgument="İlçe" CvType="Text" DesignTimeRectangle="35, 252, 182, 35" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='js-address-filter' parentid='searchResultLeft-address' tag='INPUT' type='text' placeholder='İlçe' aaname='' /&gt;" Guid="4aae59cd-bf8b-4acc-93d4-1fd8cc18508a" InformativeScreenshot="3cdc0cfd6f9e4ebbdd277978c8ae31b3.png" Reference="cF8d800nOEKccZfMHYkS1g/zs7QPyg4f0eoRUZWVmcabw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
-                    <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="57462029-83b7-4f4d-8f70-39a63100fcfc" CvElementArea="187, 254, 27, 24" CvType="Icon" DesignTimeRectangle="185, 252, 31, 28" ElementType="Icon" Guid="21d67256-36a5-4490-b7b8-afef08bb3854" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAcCAYAAACZOmSXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL7ZXbasJAEIZ9/7s+UB9APDce0GAVlVptEDUogtEtXyBhM9lNVoqEgh/M1U7mn52dmdTe3peqKqupCnmJV8L/EA+PRzX1fdVptVSjXo+t3WwqfzxWu91OujtRKh5FUSyaCNpsNByqy+UiPy+kUBzhQb+fE7JZt91+KIFCcXnj8WikDoeDut1usYVhqD6n04xP3/PU/X6XoYxYxXljPehysZAuKT/bbcZ3s9lIFyNWcf1GvGcZ89ks9eepXLCKf3S7abAgCORxjvP5nLk9/VKGVbzVaKSBTqeTPM7BO+viJFOGkziNVQYNqIu7dL1VXB+xr9VKHufY7/epP4m7dLxVHMEkGPMbXa/SJQUhPVl/MpEuRqzilE0v/cDzjKWksRDTS85++NPNgXnVg5IMI8hcY4v5PLPrdWMhFVULCsWB5SIDuxrjWtT1peLAX6vX6eSCJ8btv9frXPkx/nysZBNO4sAbkgSl5jeKsdVYQIxZAucyARI34Sz+CFRBF2daTDxFHKiS1+vFxg4w8TRxF17ilfALmZ0MSDhvjbUAAAAASUVORK5CYII=" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                      </scg:List>
-                    </uix:TargetAnchorable.Anchors>
-                  </uix:TargetAnchorable>
-                </uix:NTypeInto.Target>
-                <uix:NTypeInto.VerifyOptions>
-                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionTypeIntoOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionTypeIntoOptions.Retry>
-                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                  </uix:VerifyExecutionTypeIntoOptions>
-                </uix:NTypeInto.VerifyOptions>
-              </uix:NTypeInto>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Beylikdüzü'" sap:VirtualizedContainerService.HintSize="470,225" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
-                <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="385e9f1d-6c0e-4486-8c45-4a1020d4e661" ContentHash="cHpx02AbbUyufwUQRZg8tw" CvElementArea="34, 334, 16, 17" CvType="CheckBox" DesignTimeRectangle="35, 335, 18, 15" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='searchResultLeft-address' tag='I' class='' aaname='' /&gt;" Guid="a173fc88-52b9-4bc2-9034-16dd2bbffc59" InformativeScreenshot="f996cacb3376e16d4e14854a49686884.png" Reference="cF8d800nOEKccZfMHYkS1g/PYnGEzoSkkOqQ8Qs32i3Gg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
-                    <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="385e9f1d-6c0e-4486-8c45-4a1020d4e661" CvElementArea="34, 334, 16, 17" CvTextArea="54, 334, 69, 15" CvTextArgument="Beylikdüzü" CvType="CheckBox" DesignTimeRectangle="24, 330, 208, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Beylikdüzü' parentid='searchResultLeft-address' tag='A' type='' class='noChild facetedCheckbox' check:innerText='Beylikdüzü' /&gt;" Guid="7a41b37f-e6ac-4b1f-8069-b3c5646ea017" SearchSteps="FuzzySelector, CV" />
-                      </scg:List>
-                    </uix:TargetAnchorable.Anchors>
-                  </uix:TargetAnchorable>
-                </uix:NClick.Target>
-                <uix:NClick.VerifyOptions>
-                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionOptions.Retry>
-                    <uix:VerifyExecutionOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionOptions.Timeout>
-                  </uix:VerifyExecutionOptions>
-                </uix:NClick.VerifyOptions>
-              </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A #(1)'" sap:VirtualizedContainerService.HintSize="418,225" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
-                <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="a352cb9b-d145-4d71-b7f1-8ac119907433" ContentHash="m1zPfHfwC0SY5wh5O7jk9Q" CvElementArea="226, 248, 23, 23" CvType="CloseButton" DesignTimeRectangle="227, 248, 22, 23" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='collapse-pane' parentid='searchResultLeft-address' tag='A' type='' aaname='' /&gt;" Guid="3d89213d-ac7c-407c-973c-c63918a108d9" InformativeScreenshot="a158deec21881496ff70e403dc0ed80a.png" Reference="cF8d800nOEKccZfMHYkS1g/CXe8uX2ReEauL5hbn5jPYQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
-                    <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="a352cb9b-d145-4d71-b7f1-8ac119907433" CvTextArea="41, 263, 25, 14" CvTextArgument="beylikdüzü" CvType="Text" DesignTimeRectangle="35, 252, 182, 35" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='js-address-filter' parentid='searchResultLeft-address' tag='INPUT' type='text' placeholder='İlçe' aaname='' /&gt;" Guid="1396ce2e-a826-4572-b8ba-a34d7d7652f1" SearchSteps="FuzzySelector, CV" />
-                      </scg:List>
-                    </uix:TargetAnchorable.Anchors>
-                  </uix:TargetAnchorable>
-                </uix:NClick.Target>
-                <uix:NClick.VerifyOptions>
-                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionOptions.Retry>
-                    <uix:VerifyExecutionOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionOptions.Timeout>
-                  </uix:VerifyExecutionOptions>
-                </uix:NClick.VerifyOptions>
-              </uix:NClick>
-              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="470,271" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Min Budget" Title="Sahibinden">
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,433" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,322" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="416,262" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="District" Title="Sahibinden">
+                      <ui:InputDialog.Result>
+                        <OutArgument x:TypeArguments="x:String">[District]</OutArgument>
+                      </ui:InputDialog.Result>
+                    </ui:InputDialog>
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,387" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,276" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'İlçe'" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="3c5a2247-b422-45d1-aae3-2710582b53c0" ContentHash="tLoBUzy9pkqO0I-WtKc4Tg" CvElementArea="22, 280, 173, 34" CvType="InputBox" DesignTimeRectangle="23, 281, 170, 32" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='İlçe' class='faceted-select' parentid='searchResultLeft-address' tag='A' type='' check:innerText='İlçe' /&gt;" Guid="d8e3db9a-7e35-4fc7-b7aa-19af8a3e907b" InformativeScreenshot="8faff6de617e649c3bc8cb162aef6e98.png" Reference="cF8d800nOEKccZfMHYkS1g/_9TgyGqBn0CJ1pzMqAhTVQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="3c5a2247-b422-45d1-aae3-2710582b53c0" CvTextArea="22, 210, 171, 18" CvTextArgument="Adres Türkiye" CvType="Text" DesignTimeRectangle="8, 196, 200, 43" FuzzySelectorArgument="&lt;webctrl id='addressSelector' tag='DT' type='' class='collapseTitle notCollapsable' aaname='             Adres' check:innerText='Adres' /&gt;" Guid="a52832fd-48ce-4489-864a-b952a4505481" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,488" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,337" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,277" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[District]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="57462029-83b7-4f4d-8f70-39a63100fcfc" ContentHash="ACXl4uTYNkmVDEHQROle2A" CvTextArea="41, 261, 24, 17" CvTextArgument="İlçe" CvType="Text" DesignTimeRectangle="35, 252, 182, 35" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='js-address-filter' parentid='searchResultLeft-address' tag='INPUT' type='text' placeholder='İlçe' aaname='' /&gt;" Guid="4aae59cd-bf8b-4acc-93d4-1fd8cc18508a" InformativeScreenshot="3cdc0cfd6f9e4ebbdd277978c8ae31b3.png" Reference="cF8d800nOEKccZfMHYkS1g/zs7QPyg4f0eoRUZWVmcabw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="57462029-83b7-4f4d-8f70-39a63100fcfc" CvElementArea="187, 254, 27, 24" CvType="Icon" DesignTimeRectangle="185, 252, 31, 28" ElementType="Icon" Guid="21d67256-36a5-4490-b7b8-afef08bb3854" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAcCAYAAACZOmSXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL7ZXbasJAEIZ9/7s+UB9APDce0GAVlVptEDUogtEtXyBhM9lNVoqEgh/M1U7mn52dmdTe3peqKqupCnmJV8L/EA+PRzX1fdVptVSjXo+t3WwqfzxWu91OujtRKh5FUSyaCNpsNByqy+UiPy+kUBzhQb+fE7JZt91+KIFCcXnj8WikDoeDut1usYVhqD6n04xP3/PU/X6XoYxYxXljPehysZAuKT/bbcZ3s9lIFyNWcf1GvGcZ89ks9eepXLCKf3S7abAgCORxjvP5nLk9/VKGVbzVaKSBTqeTPM7BO+viJFOGkziNVQYNqIu7dL1VXB+xr9VKHufY7/epP4m7dLxVHMEkGPMbXa/SJQUhPVl/MpEuRqzilE0v/cDzjKWksRDTS85++NPNgXnVg5IMI8hcY4v5PLPrdWMhFVULCsWB5SIDuxrjWtT1peLAX6vX6eSCJ8btv9frXPkx/nysZBNO4sAbkgSl5jeKsdVYQIxZAucyARI34Sz+CFRBF2daTDxFHKiS1+vFxg4w8TRxF17ilfALmZ0MSDhvjbUAAAAASUVORK5CYII=" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,351" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,240" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Beylikdüzü'" sap:VirtualizedContainerService.HintSize="416,180" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="385e9f1d-6c0e-4486-8c45-4a1020d4e661" ContentHash="KshBX3NZzEiT7i0K-wj5SA" CvElementArea="34, 334, 16, 17" CvType="CheckBox" DesignTimeRectangle="35, 335, 18, 15" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='searchResultLeft-address' tag='I' class='' aaname='' /&gt;" Guid="a173fc88-52b9-4bc2-9034-16dd2bbffc59" InformativeScreenshot="47ce937262e7b83da7354ff5fcb0ed4e.png" Reference="cF8d800nOEKccZfMHYkS1g/PYnGEzoSkkOqQ8Qs32i3Gg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,387" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,276" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A #(1)'" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="a352cb9b-d145-4d71-b7f1-8ac119907433" ContentHash="m1zPfHfwC0SY5wh5O7jk9Q" CvElementArea="226, 248, 23, 23" CvType="CloseButton" DesignTimeRectangle="227, 248, 22, 23" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='collapse-pane' parentid='searchResultLeft-address' tag='A' type='' aaname='' /&gt;" Guid="3d89213d-ac7c-407c-973c-c63918a108d9" InformativeScreenshot="a158deec21881496ff70e403dc0ed80a.png" Reference="cF8d800nOEKccZfMHYkS1g/CXe8uX2ReEauL5hbn5jPYQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="a352cb9b-d145-4d71-b7f1-8ac119907433" CvTextArea="41, 263, 25, 14" CvTextArgument="beylikdüzü" CvType="Text" DesignTimeRectangle="35, 252, 182, 35" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='js-address-filter' parentid='searchResultLeft-address' tag='INPUT' type='text' placeholder='İlçe' aaname='' /&gt;" Guid="1396ce2e-a826-4572-b8ba-a34d7d7652f1" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="486,271" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Min Budget" Title="Sahibinden">
                 <ui:InputDialog.Result>
                   <OutArgument x:TypeArguments="x:String">[Min]</OutArgument>
                 </ui:InputDialog.Result>
               </ui:InputDialog>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Fiyat'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="470,286" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[Min]" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Fiyat'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="486,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[Min]" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar/sifir" CVScreenId="c22947ca-3ccb-49d2-8860-1ec034066868" ContentHash="HqTxROcvkk-IvCdY391gwg" CvElementArea="278, 379, 58, 35" CvType="InputBox" DesignTimeRectangle="280, 381, 55, 32" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='price_min' tag='INPUT' type='text' class='numericInput js-manual-search-input' placeholder='min TL' aaname='' /&gt;" Guid="78c1553b-88cb-4747-acad-da3143a89822" InformativeScreenshot="e32ce62e3f511fe31239565c9e8b740a.png" Reference="cF8d800nOEKccZfMHYkS1g/FPQorIsSfUaVnh5h8dNz_w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -509,25 +548,15 @@
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
                 </uix:NTypeInto.Target>
-                <uix:NTypeInto.VerifyOptions>
-                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionTypeIntoOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionTypeIntoOptions.Retry>
-                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                  </uix:VerifyExecutionTypeIntoOptions>
-                </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="470,271" sap2010:WorkflowViewState.IdRef="InputDialog_6" IsPassword="False" Label="Max Budget" Title="Sahibinden">
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="486,271" sap2010:WorkflowViewState.IdRef="InputDialog_6" IsPassword="False" Label="Max Budget" Title="Sahibinden">
                 <ui:InputDialog.Result>
                   <OutArgument x:TypeArguments="x:String">[Max]</OutArgument>
                 </ui:InputDialog.Result>
               </ui:InputDialog>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Fiyat'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="470,286" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[Max]" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Fiyat'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="486,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Text="[Max]" Version="V4">
                 <uix:NTypeInto.Target>
-                  <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="c4eff0f0-4d2d-4916-bda1-caf2f616011d" ContentHash="Yg_lTVY4M0q6NWxiqe200A" CvElementArea="88, 378, 59, 36" CvType="InputBox" DesignTimeRectangle="90, 380, 55, 32" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='price_max' tag='INPUT' type='text' class='numericInput js-manual-search-input' placeholder='max TL' aaname='' /&gt;" Guid="3ce3de0f-7905-47df-b873-383742cfb600" InformativeScreenshot="19e3330c39a096dadf57f4b7198a2c27.png" Reference="cF8d800nOEKccZfMHYkS1g/rBqC1sWQrE6QHb6EzkvNXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="c4eff0f0-4d2d-4916-bda1-caf2f616011d" ContentHash="G-Fs52OpIE-FWqhyApZJzA" CvElementArea="88, 378, 59, 36" CvType="InputBox" DesignTimeRectangle="90, 380, 55, 32" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='price_max' tag='INPUT' type='text' class='numericInput js-manual-search-input' placeholder='max TL' aaname='' /&gt;" Guid="3ce3de0f-7905-47df-b873-383742cfb600" InformativeScreenshot="19e3330c39a096dadf57f4b7198a2c27.png" Reference="cF8d800nOEKccZfMHYkS1g/rBqC1sWQrE6QHb6EzkvNXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
                       <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="c4eff0f0-4d2d-4916-bda1-caf2f616011d" CvTextArea="22, 303, 35, 17" CvTextArgument="Fiyat" CvType="Text" DesignTimeRectangle="8, 290, 200, 43" FuzzySelectorArgument="&lt;webctrl id='_cllpsID_price' tag='DT' type='' class='collapseTitle' aaname='         Fiyat' check:innerText='Fiyat' /&gt;" Guid="e840412a-ccdd-4730-9d17-9cd65aaf467a" SearchSteps="FuzzySelector, CV" />
@@ -535,18 +564,8 @@
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
                 </uix:NTypeInto.Target>
-                <uix:NTypeInto.VerifyOptions>
-                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionTypeIntoOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionTypeIntoOptions.Retry>
-                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                  </uix:VerifyExecutionTypeIntoOptions>
-                </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ara'" sap:VirtualizedContainerService.HintSize="470,225" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ara'" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar" CVScreenId="28b53a01-f0c3-483d-8776-2f6b8f79fe03" ContentHash="J_9aZSUySE2VdaZuyCxU4Q" CvElementArea="149, 379, 45, 35" CvTextArea="160, 390, 22, 11" CvTextArgument="Ara" CvType="Button" DesignTimeRectangle="150, 380, 42, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='searchResultLeft-price' tag='BUTTON' type='' class='btn btn-link js-manual-search-button' aaname='Ara' check:innerText='Ara' /&gt;" Guid="9e4c9e1c-941c-4a22-a53a-7b9acbf0fb69" InformativeScreenshot="9c0efd5d0c8d928ad026cd4cb948e6f7.png" Reference="cF8d800nOEKccZfMHYkS1g/2302vqn39UiL-5gwOPpoiw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -567,12 +586,12 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='İlan Başlığı'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Fiyat'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column4' Name='İlan Tarihi'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column5' Name='Semt/Mahalle'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='tr' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column4' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='4' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column5' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='5' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="470,189" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="Page" MaximumResults="3" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
+              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='İlan Başlığı'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='İlan Başlığı Url'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Fiyat'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column4' Name='İlan Tarihi'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column5' Name='Semt/Mahalle'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='tr' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext' name2='Column2' attr2='href'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column4' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='4' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column5' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='5' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="486,189" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="062e74e9-cf33-4cd5-bd99-47047436f75b" Version="V4">
                 <uix:NExtractData.NextLink>
                   <uix:TargetAnchorable BrowserURL="sahibinden.com/bilgisayar/sifir" CVScreenId="5fd90396-a827-432a-83e2-91b603908d2c" CvElementArea="1109, 896, 88, 33" CvTextArea="1128, 905, 48, 12" CvTextArgument="Sonraki" CvType="Button" DesignTimeRectangle="1111, 897, 84, 30" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='prevNextBut' parentid='searchResultsSearchForm' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='prevNextBut' parentid='searchResultsSearchForm' tag='A' type='' aaname='Sonraki ' check:innerText='Sonraki' /&gt;" Guid="49766d0e-a303-49d8-b065-bf9e20365ad9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                 </uix:NExtractData.NextLink>
                 <uix:NExtractData.Target>
-                  <uix:TargetAnchorable BrowserURL="https://www.sahibinden.com/bilgisayar/sifir?address_region=1&amp;price_min=10000&amp;address_town=435&amp;query_text_mf=bilgisayar&amp;price_max=30000" DesignTimeRectangle="482, -1280, 932, 2079" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='searchResultsTable' tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="ca1280ef-6142-4ed1-8fef-4183560f79a3" InformativeScreenshot="94e9ce2147c23987f4ba7d3516ffa792.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                  <uix:TargetAnchorable BrowserURL="https://www.sahibinden.com/bilgisayar/sifir?address_region=1&amp;price_min=10000&amp;address_town=435&amp;query_text_mf=bilgisayar&amp;price_max=30000" DesignTimeRectangle="398, 520, 932, 2079" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='searchResultsTable' tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="664e2518-8c21-4e15-b3e4-e3d62be23555" InformativeScreenshot="94e9ce2147c23987f4ba7d3516ffa792.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                 </uix:NExtractData.Target>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -581,7 +600,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </uix:NExtractData>
-              <ui:ForEach x:TypeArguments="sd:DataRow" CurrentIndex="[datarow]" DisplayName="For Each currentDataRow" sap:VirtualizedContainerService.HintSize="470,759" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[ExtractDataTable.Rows]">
+              <ui:ForEach x:TypeArguments="sd:DataRow" CurrentIndex="[datarow]" DisplayName="For Each currentDataRow" sap:VirtualizedContainerService.HintSize="486,759" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[ExtractDataTable.Rows]">
                 <ui:ForEach.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
@@ -637,7 +656,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:ForEach>
-              <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="470,141" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Bilgisayar" WorkbookPath="sahibinden.xlsx">
+              <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="486,141" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Bilgisayar" WorkbookPath="sahibinden2.xlsx">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>

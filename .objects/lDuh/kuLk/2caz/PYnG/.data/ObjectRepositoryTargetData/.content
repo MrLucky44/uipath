@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="cHpx02AbbUyufwUQRZg8tw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="KshBX3NZzEiT7i0K-wj5SA" Reference="cF8d800nOEKccZfMHYkS1g/PYnGEzoSkkOqQ8Qs32i3Gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/bilgisayar" CVScreenId="385e9f1d-6c0e-4486-8c45-4a1020d4e661" CvElementArea="34, 334, 16, 17" CvType="CheckBox" DesignTimeRectangle="35, 335, 18, 15" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='searchResultLeft-address' tag='I' class='' aaname='' /&gt;" Guid="a173fc88-52b9-4bc2-9034-16dd2bbffc59" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Bilgisayar Modelleri &amp;amp; Fiyatları sahibinden.com&amp;apos;da' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="385e9f1d-6c0e-4486-8c45-4a1020d4e661" CvElementArea="34, 334, 16, 17" CvTextArea="54, 334, 69, 15" CvTextArgument="Beylikdüzü" CvType="CheckBox" DesignTimeRectangle="24, 330, 208, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Beylikdüzü' parentid='searchResultLeft-address' tag='A' type='' class='noChild facetedCheckbox' check:innerText='Beylikdüzü' /&gt;" Guid="7a41b37f-e6ac-4b1f-8069-b3c5646ea017" SearchSteps="FuzzySelector, CV" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="f996cacb3376e16d4e14854a49686884.png" xmlns="">0ImR-1hALPEiJQjZxO43WFg</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="47ce937262e7b83da7354ff5fcb0ed4e.png" xmlns="">0UfqOStXo3EGy6N7BVC7pqg</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
